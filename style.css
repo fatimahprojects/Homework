@@ -1,144 +1,48 @@
-
 body {
-    background-color: #dedede;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+main {
+    background-color: #f9f9f9;
+    font-size: 18px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+li {
+    display: inline-block;
+    width: auto;
+    margin-right: 15px;
 }
 
 h1 {
     text-align: center;
-    font-family:Arial, sans-serif;
-    font-size: 32px;
-}
-
-a {
-    color: #000;
-    text-decoration: none;
-    font-family:Arial, sans-serif;
+    font-family: Georgia, serif;
+    color: #333;
 }
 
 p {
-   font-size: 25px;
-   font-family:Arial, sans-serif;
-}
-
-img{
-  width:100%;
-}
-
-
-p{
-  text-align:center;
-}
-
-div img{
-    width:150px;
-    height: 150px;
-    display:block;
-    margin:auto;
-}
-
-div{
-  display: inline-block;
-  width: 24%;
-  margin: 5px;
-  padding: 2px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-main {
-    border: 5px #000 solid;
-    margin: 10px;
-}
- */
-/* 
-
-.container {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-}
- */
-/* img{
-    width: 200px;
-    height: 200px;
-    padding: 5px;
-} */
-
-/* .child {
-    position: relative;
-    display: inline-block;
-    border: 5px black solid;
-    margin: 5px;
-    border-radius: 5px;
-} */
-
-/* 
-
-.label {
-    display: none;
-    position: absolute;
-    top: 40%;
-    left: 40%;
-} */
-/* 
-.button {
-    display: inline-block;
-    border: 2px solid #000;
-    padding: 5px;
-    border-radius: 25px;
-}
- */
-/* 
-.button:hover {
-    background-color:#fff;
-} */
-
-/* 
-footer {
-    display: flex;
-    justify-content: center;
-} */
-
-/* 
-header {
-    border-radius: 5px;
-    border: 5px #000 solid;
-    margin: 10px;
-} */
-
-/* 
-.label {
-    display: none;
-    position: absolute;
-    top: 40%;
-    left: 40%;
-} */
-/* 
-.child:hover .label {
-    display: block;
-} */
+    line-height: 1.6;
+    margin-bottom: 15px;
+}    margin: 10px;
