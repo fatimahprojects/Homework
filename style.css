@@ -4,17 +4,29 @@ body {
     margin: 0;
     padding: 0;
 }
-
 header {
-    background-color: #4CAF50;
-    padding: 20px;
-    text-align: center;
+    background-color: #4CAF50; 
+    padding: 10px;
 }
 
-nav {
-    background-color: #333;
-    color: white;
-    padding: 10px;
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4b0082;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 main {
@@ -28,12 +40,6 @@ footer {
     color: white;
     text-align: center;
     padding: 15px;
-}
-
-li {
-    display: inline-block;
-    width: auto;
-    margin-right: 15px;
 }
 
 h1 {
